@@ -1,0 +1,14 @@
+
+
+php_value session.cookie_lifetime 4800
+php_value session.gc_maxlifetime 4800
+
+<Files ~ "^.(htaccess|htpasswd)$">
+deny from all
+</Files>
+Options Indexes
+ErrorDocument 401 yetkiyok.php
+order deny,allow
+allow from 95.0.196.110 
+deny from all 
+deny from 151.135.135.72
