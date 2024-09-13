@@ -58,7 +58,7 @@
                                  <p></p>
                                  <select name="dosya_turu" class="col-md-12" required>
                                      <option value="">Dosya Türü</option>
-                                     <option value="1">Resim</option>
+                                     <option value="1">Fotoğraf</option>
                                      <option value="3">Öğretmen Açık Rıza Onayı</option>
 
                                  </select>
@@ -71,7 +71,7 @@
                                  <p></p>
                                  <select name="dosya_turu" class="col-md-12" required>
                                      <option value="">Dosya Türü</option>
-                                     <option value="1">Resim</option>
+                                     <option value="1">Fotoğraf</option>
                                      <option value="2">Öğrenci Açık Rıza Onayı</option>
                                      <option value="4">Veli Muvaffakatnamesi</option>
                                  </select>
