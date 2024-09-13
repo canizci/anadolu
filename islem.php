@@ -277,14 +277,30 @@ if ($_POST['kguncelle']) {
 	$admin_yetki = kontrol2($_POST['admin_yetki']);
 
 
-
-
 	$sql = "UPDATE t_login set admin_kadi='$admin_kadi',admin_sifre='$admin_sifre', ad='$ad', soyad='$soyad', admin_yetki='$admin_yetki'   where admin_id='$admin_id'";
 
 	if ($con->query($sql) === TRUE) {
 		header('location:kullanici_guncelle2.php?durum=ok');
 	}
 }
+
+
+
+if ($_POST['update_komisyon']) {
+
+	$admin_id = kontrol2($_POST['id']);
+	$komisyon = kontrol2($_POST['komisyon']);
+
+
+
+	$sql = "UPDATE t_loginanadolu set komisyon='$komisyon', admin_yetki='3' where admin_id='$admin_id'";
+
+	if ($con->query($sql) === TRUE) {
+		header('location:aupdate_komisyon.php?durum=ok');
+	} else
+		echo "İşlem Başarısız";
+}
+
 
 
 
