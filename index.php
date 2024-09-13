@@ -7,6 +7,8 @@
 </head>
 <body>
     
-<h1>Birinc commit</h1>
-</body>
+    <h1>Birinc commit</h1>
+    <h1>İkinci commit</h1>
+
+    </body>
 </html>
