@@ -32,7 +32,7 @@
                         <label></label><br>
                     </div>
                     <div class="alert alert-info col-md-12">
-                        <label>Belge ve fotoğrafı sisteme yükledikten sonra "Yüklenen Fotoğraf ve Belgeler" menusundan kontrol ediniz. Fotoğraf ve belge isimlerini sisteme yüklerken türkçe karakter kullanmadan sisteme kayıt edip yükleme gerçekleştiriniz. Fotoğraf ve belge isimlerinde "Ş,Ö,Ü,Ç,İ" gibi türkçe karakter kullanmayınız. </label>
+                        <label>Aşağıda belirtilen belgeleri sırayla sisteme yükleyiniz. "Yüklenen Fotoğraf ve Belgeler" kısmından belgelerinizi kontrol ediniz. Birden fazla fotoğraf ile yarışmaya katılacaklar aşağıdaki bölümden fotoğraf yükle diyerek ikinci fotoğraflarını yükleyebilirler.</label>
                     </div>
                 </div>
             </div>
@@ -102,8 +102,9 @@
                         <?php } ?>
                         <td>
                             <form role="form" action="dosya.php" method="POST">
+                                <input type="hidden" name="dosya_turu" value="1">
                                 <input type="hidden" name="admin_id" value="<?php echo $rows20["admin_id"] ?>">
-                                <input type="submit" name="git2" value="Belge Yükle" class="btn btn-info">
+                                <input type="submit" name="git2" value="Yarışma Fotoğrafı Yükle" class="btn btn-success col-md-8">
                             </form>
                         </td>
 
@@ -144,7 +145,9 @@
                             <td>
                                 <form role="form" action="dosya.php" method="POST">
                                     <input type="hidden" name="admin_id" value="<?php echo $rows20["admin_id"] ?>">
-                                    <input type="submit" name="git2" value="Belge Yükle" class="btn btn-info">
+                                    <input type="hidden" name="dosya_turu" value="2">
+
+                                    <input type="submit" name="git2" value="Öğrenci Açık Rıza Onayı Yükle" class="btn btn-info col-md-8">
                                 </form>
                             </td>
 
@@ -191,7 +194,9 @@
                             <td>
                                 <form role="form" action="dosya.php" method="POST">
                                     <input type="hidden" name="admin_id" value="<?php echo $rows20["admin_id"] ?>">
-                                    <input type="submit" name="git2" value="Belge Yükle" class="btn btn-info">
+                                    <input type="hidden" name="dosya_turu" value="3">
+
+                                    <input type="submit" name="git2" value="Öğretmen Açık Rıza Onayı Yükle" class="btn btn-info col-md-8">
                                 </form>
                             </td>
 
@@ -235,7 +240,9 @@
                             <td>
                                 <form role="form" action="dosya.php" method="POST">
                                     <input type="hidden" name="admin_id" value="<?php echo $rows20["admin_id"] ?>">
-                                    <input type="submit" name="git2" value="Belge Yükle" class="btn btn-info">
+                                    <input type="hidden" name="dosya_turu" value="4">
+
+                                    <input type="submit" name="git2" value="Veli Muvafakatnamesi Yükle" class="btn btn-primary col-md-8">
                                 </form>
                             </td>
                             </tr>

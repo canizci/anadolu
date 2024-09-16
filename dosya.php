@@ -51,15 +51,18 @@
 
                     -->
 
-                         <?php if ($rows20['resim_kategori'] == "4") { ?>
+                         <?php if ($rows20['resim_kategori'] == "4") {
+                                echo $_POST["dosya_turu"];      ?>
 
                              <div class="form-group col-md-12">
                                  <label>Sisteme Yüklenen Dosyanın Türnü Seçiniz</label>
                                  <p></p>
                                  <select name="dosya_turu" class="col-md-12" required>
-                                     <option value="">Dosya Türü</option>
-                                     <option value="1">Fotoğraf</option>
-                                     <option value="3">Öğretmen Açık Rıza Onayı</option>
+                                     <option value="">Dosya Türü </option>
+                                     <?php if ($_POST["dosya_turu"] == "1") { ?>
+                                         <option value="1">Fotoğraf</option> <?php } ?>
+                                     <?php if ($_POST["dosya_turu"] == "3") { ?>
+                                         <option value="3">Öğretmen Açık Rıza Onayı</option><?php } ?>
 
                                  </select>
                              </div>
@@ -71,9 +74,12 @@
                                  <p></p>
                                  <select name="dosya_turu" class="col-md-12" required>
                                      <option value="">Dosya Türü</option>
-                                     <option value="1">Fotoğraf</option>
-                                     <option value="2">Öğrenci Açık Rıza Onayı</option>
-                                     <option value="4">Veli Muvaffakatnamesi</option>
+                                     <?php if ($_POST["dosya_turu"] == "1") { ?>
+                                         <option value="1">Fotoğraf</option> <?php } ?>
+                                     <?php if ($_POST["dosya_turu"] == "2") { ?>
+                                         <option value="2">Öğrenci Açık Rıza Onayı</option> <?php } ?>
+                                     <?php if ($_POST["dosya_turu"] == "4") { ?>
+                                         <option value="4">Veli Muvaffakatnamesi</option> <?php } ?>
                                  </select>
                              </div>
                          <?php  }   ?>
