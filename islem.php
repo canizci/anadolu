@@ -484,7 +484,7 @@ if ($file_type == "application/pdf" || $file_type == "application/vnd.openxmlfor
 			//$sql="UPDATE t_arastirma SET dosya_yol='$dosya_yol' where id='$id'";
 			$con->query($sql);
 
-			header('location:dosya.php?durum=ok');
+			header('location:arastirma.php?durum=ok');
 			exit();
 		} else {
 
