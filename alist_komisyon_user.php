@@ -22,6 +22,7 @@
                     <thead>
                         <tr>
                             <th>Sıra</th>
+                            <th>Kullanıcı</th>
                             <th> Ad</th>
                             <th> Soyad</th>
                             <th> Okul</th>
@@ -42,6 +43,7 @@
                                 $i++; ?>
                                 <tr>
                                     <td><?php echo $i; ?></td>
+                                    <td><?php echo $rows['admin_kadi']; ?></td>
                                     <td><?php echo $rows['ad']; ?></td>
                                     <td><?php echo $rows['soyad']; ?></td>
                                     <td><?php echo $rows['okul']; ?></td>

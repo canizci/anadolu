@@ -129,6 +129,7 @@ if (isset($_POST['update_point'])) {
 
 
 
+
 	$id = kontrol2($_POST['id']);
 	$resim_kategori = kontrol2($_POST['resim_kategori']);
 	echo $id;
@@ -186,6 +187,203 @@ if (isset($_POST['update_point'])) {
 	echo "update ok";
 }
 
+
+if (isset($_POST['update_point1'])) {
+
+
+
+
+	$id = kontrol2($_POST['id']);
+	$resim_kategori = kontrol2($_POST['resim_kategori']);
+	echo $id;
+
+	$k1_icerik_puani = kontrol2($_POST['k1_icerik_puani']);
+	$k1_teknik_puani = kontrol2($_POST['k1_teknik_puani']);
+	$k1_ozgunluk_puani = kontrol2($_POST['k1_ozgunluk_puani']);
+
+
+	$sql = "UPDATE t_resim SET 
+	k1_icerik_puani='$k1_icerik_puani', k1_teknik_puani='$k1_teknik_puani', k1_ozgunluk_puani='$k1_ozgunluk_puani' where id='$id'";
+
+
+	if ($con->query($sql) === TRUE) {
+		if ($resim_kategori == "1") {
+			header('location:list_picture_ilkokul.php?durum=ok');
+		}
+
+		if ($resim_kategori == "2") {
+			header('location:list_picture_ortaokul.php?durum=ok');
+		}
+		if ($resim_kategori == "3") {
+			header('location:list_picture_lise.php?durum=ok');
+		}
+
+		if ($resim_kategori == "4") {
+			header('location:list_picture_ogretmen.php?durum=ok');
+		}
+	}
+
+
+	echo "update ok";
+}
+
+
+
+if (isset($_POST['update_point2'])) {
+
+	echo "point2";
+
+	$id = kontrol2($_POST['id']);
+	$resim_kategori = kontrol2($_POST['resim_kategori']);
+	echo $id;
+
+	$k2_icerik_puani = kontrol2($_POST['k2_icerik_puani']);
+	$k2_teknik_puani = kontrol2($_POST['k2_teknik_puani']);
+	$k2_ozgunluk_puani = kontrol2($_POST['k2_ozgunluk_puani']);
+
+
+	$sql = "UPDATE t_resim SET 
+	k2_icerik_puani='$k2_icerik_puani', k2_teknik_puani='$k2_teknik_puani', k2_ozgunluk_puani='$k2_ozgunluk_puani' where id='$id'";
+
+
+	if ($con->query($sql) === TRUE) {
+		if ($resim_kategori == "1") {
+			header('location:list_picture_ilkokul.php?durum=ok');
+		}
+
+		if ($resim_kategori == "2") {
+			header('location:list_picture_ortaokul.php?durum=ok');
+		}
+		if ($resim_kategori == "3") {
+			header('location:list_picture_lise.php?durum=ok');
+		}
+
+		if ($resim_kategori == "4") {
+			header('location:list_picture_ogretmen.php?durum=ok');
+		}
+	}
+
+
+	echo "update ok";
+}
+
+
+
+if (isset($_POST['update_point3'])) {
+
+
+
+	$id = kontrol2($_POST['id']);
+	$resim_kategori = kontrol2($_POST['resim_kategori']);
+	echo $id;
+
+	$k3_icerik_puani = kontrol2($_POST['k3_icerik_puani']);
+	$k3_teknik_puani = kontrol2($_POST['k3_teknik_puani']);
+	$k3_ozgunluk_puani = kontrol2($_POST['k3_ozgunluk_puani']);
+
+
+	$sql = "UPDATE t_resim SET 
+	k3_icerik_puani='$k3_icerik_puani', k3_teknik_puani='$k3_teknik_puani', k3_ozgunluk_puani='$k3_ozgunluk_puani' where id='$id'";
+
+
+	if ($con->query($sql) === TRUE) {
+		if ($resim_kategori == "1") {
+			header('location:list_picture_ilkokul.php?durum=ok');
+		}
+
+		if ($resim_kategori == "2") {
+			header('location:list_picture_ortaokul.php?durum=ok');
+		}
+		if ($resim_kategori == "3") {
+			header('location:list_picture_lise.php?durum=ok');
+		}
+
+		if ($resim_kategori == "4") {
+			header('location:list_picture_ogretmen.php?durum=ok');
+		}
+	}
+
+
+	echo "
+	update ok";
+}
+
+if (isset($_POST['update_point4'])) {
+
+
+
+	$id = kontrol2($_POST['id']);
+	$resim_kategori = kontrol2($_POST['resim_kategori']);
+	echo $id;
+
+	$k4_icerik_puani = kontrol2($_POST['k4_icerik_puani']);
+	$k4_teknik_puani = kontrol2($_POST['k4_teknik_puani']);
+	$k4_ozgunluk_puani = kontrol2($_POST['k4_ozgunluk_puani']);
+
+
+	$sql = "UPDATE t_resim SET 
+	k4_icerik_puani='$k4_icerik_puani', k4_teknik_puani='$k4_teknik_puani', k4_ozgunluk_puani='$k4_ozgunluk_puani' where id='$id'";
+
+
+	if ($con->query($sql) === TRUE) {
+		if ($resim_kategori == "1") {
+			header('location:list_picture_ilkokul.php?durum=ok');
+		}
+
+		if ($resim_kategori == "2") {
+			header('location:list_picture_ortaokul.php?durum=ok');
+		}
+		if ($resim_kategori == "3") {
+			header('location:list_picture_lise.php?durum=ok');
+		}
+
+		if ($resim_kategori == "4") {
+			header('location:list_picture_ogretmen.php?durum=ok');
+		}
+	}
+
+
+	echo "update ok";
+}
+
+
+if (isset($_POST['update_point5'])) {
+
+
+
+	$id = kontrol2($_POST['id']);
+	$resim_kategori = kontrol2($_POST['resim_kategori']);
+	echo $id;
+
+	$k5_icerik_puani = kontrol2($_POST['k5_icerik_puani']);
+	$k5_teknik_puani = kontrol2($_POST['k5_teknik_puani']);
+	$k5_ozgunluk_puani = kontrol2($_POST['k5_ozgunluk_puani']);
+
+
+	$sql = "UPDATE t_resim SET 
+	k5_icerik_puani='$k5_icerik_puani', k5_teknik_puani='$k5_teknik_puani', k5_ozgunluk_puani='$k5_ozgunluk_puani' where id='$id'";
+
+
+	if ($con->query($sql) === TRUE) {
+		if ($resim_kategori == "1") {
+			header('location:list_picture_ilkokul.php?durum=ok');
+		}
+
+		if ($resim_kategori == "2") {
+			header('location:list_picture_ortaokul.php?durum=ok');
+		}
+		if ($resim_kategori == "3") {
+			header('location:list_picture_lise.php?durum=ok');
+		}
+
+		if ($resim_kategori == "4") {
+			header('location:list_picture_ogretmen.php?durum=ok');
+		}
+	}
+
+
+	echo "update ok";
+}
 
 
 
