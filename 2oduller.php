@@ -1,81 +1,67 @@
 <?php include 'navbar.php'; ?>
-<?php include 'slider.php'; ?>
-
-
-
-
-
-
-<!-- Row Bitiş -->
-</div>
-
-<!-- Slider Altı -->
-<hr>
-
-
-
-<style>
-    body {
-        background: #f4f4f4
-    }
-
-    .django-ckeditor-widget {
-        width: 100%;
-
-
-    }
-</style>
-</style>
 
 <div class="row">
-    <div class="col p-12 bg-danger text-white" style="text-align: center;">Yarışma Kategorileri</div>
+    <div class="col p-12 bg-danger text-white" style="text-align: center;">Ödüller</div>
+</div>
+
+<div class="row">
+    <div class="col p-12 bg-danger text-white" style="text-align: center;"></div>
 </div>
 <br>
 <div class="row">
     <div class="col p-2  text-dark" style="text-align: center;">
         <img src="assets/img/i1.png" alt="">
-        <p>İlkokul Kategorisi</p>
+        <h4>İlokul Kategorisi</h4>
+        <p class="text-justify">
+        <p>Birinci: Tablet</p>
+        <p>İkinci: Bisiklet</p>
+        <p>Birinci: Akıllı Bileklik</p>
     </div>
 
     <div class="col p-2  text-dark" style="text-align: center;">
         <img src="assets/img/i2.png" alt="">
-        <p>Ortaokul Kategorisi</p>
+        <h4>Ortaokul Kategorisi</h4>
+        <p class="text-justify">
+        <p>Birinci: Tablet</p>
+        <p>İkinci: Bisiklet</p>
+        <p>Birinci: Akıllı Bileklik</p>
     </div>
     <div class="col p-2  text-dark" style="text-align: center;">
         <img src="assets/img/i3.png" alt="">
-        <p>Lise Kateogorisi</p>
+        <h4>Lise Kategorisi</h4>
+        <p class="text-justify">
+        <p>Birinci: Fotoğraf Makinesi</p>
+        <p>İkinci: Tablet</p>
+        <p>Birinci: Akıllı Saat</p>
+
     </div>
     <div class="col p-2  text-dark" style="text-align: center;">
         <img src="assets/img/i4.png" alt="">
-        <p>Öğretmen Kategorisi</p>
+        <h4>Öğretmen Kategorisi</h4>
+        <p class="text-justify">
+        <p>Birinci: Fotoğraf Makinesi</p>
+        <p>İkinci: Tablet</p>
+        <p>Birinci: Akıllı Saat</p>
     </div>
 
 </div>
-</div>
-</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!-- Container Bitiş -->
 </div>
 </div>
-
-<!-- Footer Başlangıç -->
-
-
-
-<div class="row">
-    <div class="col p-3 bg-danger text-white" style="text-align: center;">Adres:Sarıyakup Mahallesi Garaj Caddesi No 4 42020 Karatay KONYA E-Posta:arge42@meb.gov.tr Konya İl Milli Eğitim Müdürlüğü</div>
-
-
-</div>
-
-</div>
-</div>
-
-
-
-</div>
-
-<!-- Footer Bitiş -->
 
 
 
