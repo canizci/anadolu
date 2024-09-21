@@ -12,13 +12,7 @@
     exit();
 }
 ?>
-<?php
-$admin_kadi = $_SESSION['admin_kadi'];
-$sql = "select * from t_login where admin_kadi='$admin_kadi'";
-$result = $con->query($sql);
-$rows = $result->fetch_assoc();
-echo  $rows['admin_kadi'];
-?>
+
 <?php
 $sql = "select * from t_resim where dosya_turu='1'   ";
 

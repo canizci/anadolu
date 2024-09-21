@@ -6,6 +6,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+
+    <meta name="Konya İl Milli Eğitim Müdürlüğü Anadolunun Renkleri Fotoğraf Yarışması" content="Free Web tutorials">
+    <meta name="keywords" content="Anadolunun Renkleri, Arge,Konya İl Mİlli Eğitim Müdürlüğü, Konya,MEB">
+    <meta name="author" content="Can İzci">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 

@@ -503,6 +503,25 @@ if ($_POST['update_komisyon']) {
 
 
 
+if ($_POST['update_slider']) {
+
+	$id = kontrol2($_POST['id']);
+	$icerik = kontrol2($_POST['icerik']);
+	$baslik = kontrol2($_POST['baslik']);
+
+
+
+	$sql = "UPDATE t_slider set icerik='$icerik', baslik='$baslik'  where id='$id'";
+
+	if ($con->query($sql) === TRUE) {
+		header('location:list_slider.php?durum=ok');
+	} else
+		echo "İşlem Başarısız";
+}
+
+
+
+
 
 
 if ($_GET['kullanicisil'] == "ok") {
@@ -683,6 +702,99 @@ if ($file_type == "application/pdf" || $file_type == "application/vnd.openxmlfor
 			$con->query($sql);
 
 			header('location:arastirma.php?durum=ok');
+			exit();
+		} else {
+
+			echo "Problem uploading file";
+		}
+	} else {
+
+		echo "You may only upload PDFs, JPEGs or GIF files.<br>";
+	}
+}
+
+
+
+
+
+if (isset($_POST['slider_yukle'])) {
+
+
+	function kontrol($data)
+	{
+
+
+		$search = array("ü", "ç", "i", "ı", "ğ", "ö", "ş", "Ü", "Ç", "İ", "I", "Ğ", "Ö", "Ş");
+		$replace = array("u", "c", "i", "i", "g", "o", "s", "u", "C", "i", "i", "G", "O", "S");
+		$data = str_replace($search, $replace, $data);
+
+
+		$data = trim($data);
+
+		$data = stripslashes($data);
+		$data = htmlspecialchars($data);
+
+
+
+
+		return $data;
+	}
+
+
+
+
+	$baslik = $_POST['baslik'];
+	$icerik = $_POST['icerik'];
+
+
+	$slider_yol = "testupload/";
+
+
+	$benzersizad = rand(1, 150000);
+
+	$slider_yol = $slider_yol . $benzersizad . basename(kontrol($_FILES['file']['name']));
+
+	$ok = 1;
+
+	$file_type = $_FILES['file']['type'];
+
+
+	if ($_FILES["file"]["size"] > 8200000) {
+		header('location:add_slider.php?durum=no');
+		$uploadOk = 0;
+
+		exit();
+	}
+	// 
+
+
+	if (file_exists($dosya_yol)) {
+		echo "Sorry, file already exists.";
+		$uploadOk = 0;
+	} else
+
+
+
+
+if ($file_type == "application/pdf" || $file_type == "application/vnd.openxmlformats-officedocument.wordprocessingml.document" || $file_type == "image/gif" || $file_type == "image/jpeg" || $file_type == "image/JPEGs") {
+
+
+
+
+
+		if (move_uploaded_file($_FILES['file']['tmp_name'], $slider_yol)) {
+
+			//İLGİLİ KULLANICININ OTURUMDAKİ VERİLERİ İÇİN BU KISIM YAZILDI
+
+
+			$sql = "insert into t_slider 
+			(baslik,icerik,slider_yol) values 
+			('$baslik','$icerik','$slider_yol') ";
+
+			//$sql="UPDATE t_arastirma SET dosya_yol='$dosya_yol' where id='$id'";
+			$con->query($sql);
+
+			header('location:list_slider.php?durum=ok');
 			exit();
 		} else {
 
