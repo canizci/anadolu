@@ -1,5 +1,5 @@
  <?php include 'header.php'; ?>
- <?php include 'sidebar.php'; ?>
+ <?php include 'sidebar2.php'; ?>
  <?php include 'kontrol.php'; ?>
  <?php
     session_start();
@@ -36,7 +36,8 @@
 
                          <div class="form-group col-md-12">
                              <label>İçerik</label>
-                             <textarea class="form-control" rows="5" name="icerik"></textarea>
+                             <textarea class="form-control" name="icerik" id="icerik" rows="3"></textarea>
+
                          </div>
 
 

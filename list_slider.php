@@ -5,7 +5,7 @@
     # code...
 } ?>
 <?php include 'header.php' ?>
-<?php include 'sidebar.php' ?>
+<?php include 'sidebar2.php' ?>
 
 
 
@@ -51,7 +51,7 @@
                                 <tr>
                                     <td><?php echo $i; ?> </td>
                                     <td><?php echo $rows['baslik']; ?></td>
-                                    <td><?php echo $rows['icerik']; ?></td>
+
                                     <td><img src="<?php echo $rows['slider_yol']; ?>" style="width: 75px; height: 50px;"></td>
 
 

@@ -50,22 +50,6 @@ $rows20 = $result20->fetch_assoc();
 
 
 
-            <li>
-                <a href="arastirma.php"><i class="fa fa-toggle-on"></i>Fotoğraf & Belge Yükle</a>
-            </li>
-
-
-            <li>
-                <a href="ozetlistele.php"><i class="fa fa-folder-open"></i>Yüklenen Fotoğraf & Belgeler</a>
-            </li>
-
-            <li>
-                <a href="add_slider.php"><i class="fa fa-folder-open"></i>Add Slider</a>
-            </li>
-            <li>
-                <a href="list_slider.php"><i class="fa fa-folder-open"></i>List Slider</a>
-            </li>
-
 
 
 

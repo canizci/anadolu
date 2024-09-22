@@ -28,7 +28,7 @@
 </style>
 
 <div class="row">
-    <div class="col p-12 bg-danger text-white" style="text-align: center;">Yarışma Kategorileri</div>
+    <div class="col p-12 bg-secondary text-white" style="text-align: center;">Yarışma Kategorileri</div>
 </div>
 <br>
 <div class="row">

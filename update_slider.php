@@ -1,5 +1,5 @@
  <?php include 'header.php'; ?>
- <?php include 'sidebar.php'; ?>
+ <?php include 'sidebar2.php'; ?>
  <?php include 'kontrol.php'; ?>
  <?php
     session_start();
@@ -44,14 +44,15 @@
 
                          <div class="form-group col-md-12">
                              <label>İçerik</label>
-                             <input class="form-control" type="text" name="icerik" value="<?php echo $rows['icerik']; ?>">
+
+                             <textarea class="form-control" name="icerik" rows="10"> <?php echo $rows['icerik'];  ?></textarea>
 
                          </div>
 
 
 
 
-                         <input type="submit" value="Haber Güncelle" name="update_slider" class="btn btn-info col-md-12" />
+                         <input type="submit" value="Haber Güncelle" name="update_slider" class="btn btn-success col-md-2" />
 
 
 

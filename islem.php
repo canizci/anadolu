@@ -776,7 +776,7 @@ if (isset($_POST['slider_yukle'])) {
 
 
 
-if ($file_type == "application/pdf" || $file_type == "application/vnd.openxmlformats-officedocument.wordprocessingml.document" || $file_type == "image/gif" || $file_type == "image/jpeg" || $file_type == "image/JPEGs") {
+if ($file_type == "application/pdf" || $file_type == "application/vnd.openxmlformats-officedocument.wordprocessingml.document" || $file_type == "image/png" || $file_type == "image/jpeg" || $file_type == "image/JPEGs") {
 
 
 
