@@ -6,7 +6,7 @@
     <div class="col p-12 bg-danger text-white" style="text-align: center;">Hakkımızda</div>
 </div>
 
-<div class="container p-5 my-5 bg-dark text-white">
+<div class="container p-5 my-5 bg-white text-black">
     <h4>Anadolu’nun Renkleri Ulusal Fotoğraf Yarışması</h4>
     <p class="text-justify">
         Konya İl Millî Eğitim Müdürlüğü tarafından Konya Büyükşehir Belediyesi sponsorluğunda düzenlenecek Anadolu’nun Renkleri 2. Ulusal Fotoğraf Yarışması’nın özel amaçları aşağıdaki gibidir:
