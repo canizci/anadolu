@@ -47,9 +47,7 @@
                     <a class="nav-link" href="5belgeler.php">Belgeler</a>
                 </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="2oduller.php">Ödüller</a>
-                </li>
+
                 <li class="nav-item">
                     <a class="nav-link" href="6iletisim.php">İletişim</a>
                 </li>

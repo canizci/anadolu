@@ -8,6 +8,11 @@
 <hr>
 
 <div class="alert alert-danger col-md-12">
+    <label>Anadolunun Renkerli Fotoğraf Yarışması Sisteme Giriş Kılavuzu</label><br>
+    <label><a href="testupload/kilavuz.docx">Kılavuz(Bağlantı Linki)</a></label><br>
+</div>
+
+<div class="alert alert-danger col-md-12">
     <label>Öğrencilerin Sisteme Yüklemesi Gereken Belgeler :</label>
     <label>1-Yarışmaya katılım için çekilen fotoğraf</label><br>
     <label><a href="testupload/Ek4-veli_muvaffakatnamesi.docx">2-Veli Muvafakatnamesi(Bağlantı Linki)</a></label><br>
