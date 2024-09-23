@@ -15,7 +15,6 @@
     $rows = $result->fetch_assoc();;
     ?>
 
-
  <!--BLANK PAGE KODLARININ OLDUĞU BÖLÜM -->
 
  <div id="page-wrapper">
@@ -29,11 +28,7 @@
                      <form role="form" action="islem.php" method="POST" enctype="multipart/form-data">
 
                          <input type="hidden" name="id" value="<?php echo $rows['id']; ?>">
-
-
-
-
-
+                         <input type="hidden" name="slider_yol" value="<?php echo $rows['slider_yol']; ?>">
 
 
                          <div class="form-group col-md-12">
@@ -51,9 +46,15 @@
 
 
 
+                         <div class="container">
+                             <div class="row">
+                                 <input type="submit" value="Haber Güncelle" name="update_slider" class="btn btn-success col-md-2" />
 
-                         <input type="submit" value="Haber Güncelle" name="update_slider" class="btn btn-success col-md-2" />
+                             </div>
+                         </div>
+                         <br>
 
+                         <input type="submit" value="Sil" name="delete_slider" class="btn btn-danger col-md-2" />
 
 
                          <!--   <button  style="margin-top: 20px;" name="dosya_sil" value="Dosya Sil2" onclick="return confirm('Dosya Yolunu Silmek İstediğiden Eminmisiniz?')" class="btn btn-danger col-md-12">SİL</button>

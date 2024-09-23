@@ -403,11 +403,28 @@ if ($_GET['arastirmasil'] == "ok") {
 
 
 
+if ($_GET['delete_slider'] == "ok") {
+
+
+	$id = kontrol2($_GET['id']);
+
+
+
+	$sql = "delete from t_slider  where id='$id'";
+
+	$con->query($sql);
+
+
+
+	header('location:list_slider.php');
+}
+
+
+
+
 
 
 if ($_GET['arastirmasil2'] == "ok") {
-
-
 
 
 
@@ -683,7 +700,7 @@ if (isset($_POST['dosya_yukle'])) {
 
 
 
-if ($file_type == "application/pdf" || $file_type == "application/vnd.openxmlformats-officedocument.wordprocessingml.document" || $file_type == "image/gif" || $file_type == "image/jpeg" || $file_type == "image/JPEGs") {
+	if ($file_type == "application/pdf" || $file_type == "application/vnd.openxmlformats-officedocument.wordprocessingml.document" || $file_type == "image/gif" || $file_type == "image/jpeg" || $file_type == "image/JPEGs") {
 
 
 
@@ -747,7 +764,7 @@ if (isset($_POST['slider_yukle'])) {
 	$icerik = $_POST['icerik'];
 
 
-	$slider_yol = "testupload/";
+	$slider_yol = "sliderupload/";
 
 
 	$benzersizad = rand(1, 150000);

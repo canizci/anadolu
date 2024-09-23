@@ -67,6 +67,9 @@
                                     </td>
 
 
+                                    <td><a href="islem.php?id=<?php echo $rows['id']; ?>&delete_slider=ok"> <button onclick="return confirm('Kaydı Silmek İstediğiden Eminmisiniz?')" class="btn btn-danger">SİL</button></a></td>
+
+
 
                                 </tr>
 

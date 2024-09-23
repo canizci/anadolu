@@ -15,15 +15,12 @@
          <div class="row">
              <div class="col-md-12">
 
-                 <h1 class="page-head-line">Haber Ekle </h1>
-
+                 <h1 class="page-head-line">HABER BAŞLIĞI ve Manşet RESİM EKLE </h1>
+                 <H3>Haber Listele Ekranından Haber İçeriğini Gireblirsiniz</H3>
                  <div class="row col-md-12">
                      <form role="form" action="islem.php" method="POST" enctype="multipart/form-data">
 
                          <input type="hidden" name="id" value="<?php echo $rows20['admin_id']; ?>">
-
-
-
 
 
 
@@ -34,11 +31,7 @@
 
                          </div>
 
-                         <div class="form-group col-md-12">
-                             <label>İçerik</label>
-                             <textarea class="form-control" name="icerik" id="icerik" rows="3"></textarea>
 
-                         </div>
 
 
 
