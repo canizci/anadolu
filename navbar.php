@@ -36,15 +36,35 @@
                 <li class="nav-item active">
                     <a class="nav-link" href="index.php">Ana Sayfa <span class="sr-only"></span></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="1projemiz.php">Projemiz</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Projemiz
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="1projemiz.php">Projemiz</a>
+                        <a class="dropdown-item" href="7katilimsartlari.php">Genel Katılım Şartları </a>
+                        <a class="dropdown-item" href="8sonuc.php">Sonuçların Açıklanması</a>
+                        <a class="dropdown-item" href="9ogretmen_sartname.php">Öğretmen Şartnamesi</a>
+                        <a class="dropdown-item" href="10itiraz.php">Telif ve İtiraz Hakkı</a>
+                        <a class="dropdown-item" href="11takvim.php">Yarışma Takvimi</a>
+                        <div class="dropdown-divider"></div>
+
+                    </div>
                 </li>
 
                 <li class="nav-item">
                     <a class="nav-link" href="3hakkimizda.php">Hakkımızda</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="4yarisma_kategorileri.php">Yarışma Kategorileri</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Kateogori ve Ödüller
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="4yarisma_kategorileri.php">Yarışma Kategorileri</a>
+                        <a class="dropdown-item" href="oduller.php">Ödüller</a>
+                        <div class="dropdown-divider"></div>
+
+                    </div>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="5belgeler.php">Belgeler</a>

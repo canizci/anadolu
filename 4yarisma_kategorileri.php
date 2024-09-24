@@ -9,6 +9,17 @@
         Yarışmada ilkokul, ortaokul, lise ve öğretmen kategorileri bulunmaktadır. İlkokul kategorisi için 1,2,3 ve 4.sınıfı öğrencileri, ortaokul için 5,6,7 ve 8.sınıf öğrencileri, lise kategorisi için 9,10,11 ve 12. sınıf öğrencileri ile öğretmen kategorisi için tüm öğretmenlerimiz yarışmaya katılım sağlayabilecektir.
     </p>
 
+
+    Öğretmen Kategorisinin Konusu
+
+    Yarışmaya öğretmenler katılabilecektir.
+    Türkiye genelinde düzenlenen fotoğraf yarışmasının konusu <b style="color: red;">DOĞA VE İNSAN</b> olarak belirlenmiştir.
+
+    Öğrenci Kategorisinin Konusu
+
+    Türkiye genelinde düzenlenen fotoğraf yarışmasının tüm kategorilerdeki konusu <b style="color: red;">DOĞA VE İNSAN</b> olarak belirlenmiştir.
+
+
     <img class="d-block w-100" src="assets/img/kosancocuk.png">
 
 

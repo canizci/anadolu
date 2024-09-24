@@ -22,8 +22,10 @@
                 <div class="carousel-item active ">
                     <a href="haber.php?id=<?php echo $rows2['id']; ?>"> <img src=" <?php echo $rows2["slider_yol"]; ?>" class="d-block w-100" alt="..."></a>
                     <div class="carousel-caption d-none d-md-block">
-                        <h3><a style="color: black;" href="haber.php?id=<?php echo $rows2['id']; ?>" class="card-title"><?php echo $rows2["baslik"]; ?> </a></h3>
+                        <h3><a style="color: white;" href="haber.php?id=<?php echo $rows2['id']; ?>" class="card-title"></a></h3>
                     </div>
+
+
                 </div>
 
                 <?php
@@ -40,7 +42,7 @@
                         <div class="carousel-item  ">
                             <a href="haber.php?id=<?php echo $rows['id']; ?>"><img src=" <?php echo $rows["slider_yol"]; ?>" class="d-block w-100" alt="..."></a>
                             <div class="carousel-caption d-none d-md-block">
-                                <h3><a style="color: black;" href="haber.php?id=<?php echo $rows['id']; ?>" class="card-title"><?php echo $rows["baslik"]; ?> </a>
+                                <h3><a style="color: black;" href="haber.php?id=<?php echo $rows['id']; ?>" class="card-title"> </a>
                             </div>
                             </h3>
                         </div>

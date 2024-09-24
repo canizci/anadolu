@@ -1,6 +1,9 @@
 <?php include 'navbar.php'; ?>
 
 <div class="row">
+    <div class="col p-12 bg-danger text-white" style="text-align: center;">Yarışma Ödülleri</div>
+</div>
+<div class="row">
     <div class="col p-12 bg-danger text-white" style="text-align: center;">Ödüller</div>
 </div>
 
