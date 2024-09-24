@@ -33,13 +33,6 @@
 
 
 
-
-
-
-
-
-
-
                          <div class="col-md-6">
 
                              <input type="file" name="file" size="50" /> <br>
