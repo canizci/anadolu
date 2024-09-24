@@ -48,9 +48,9 @@ include 'kontrol.php';
         <div class="row text-center " style="padding-top:5px;">
             <div class="col-md-12">
                 <div align="center">
-                    <img src="assets/img/banner.png" width="300" height="80" />
+
                 </div>
-                <img src="assets/img/loginlogo.png" width="300" height="150" />
+                <img src="assets/img/loginlogo.png" width="300" height="200" />
             </div>
         </div>
         <div class="row ">
