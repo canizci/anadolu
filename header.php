@@ -67,7 +67,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="">Konya İl Mİllİ EĞİTİM Müdürlüğü</a>
+                <a class="navbar-brand" href="">3. ULUSAL FOTOĞRAF YARIŞMASI</a>
             </div>
 
 

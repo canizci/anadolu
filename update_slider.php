@@ -37,25 +37,29 @@
 
                          </div>
 
-                         <div class="form-group col-md-12">
+                 
                              <label>İçerik</label>
 
-                             <textarea class="form-control" name="icerik" rows="10"> <?php echo $rows['icerik'];  ?></textarea>
 
-                         </div>
+                    
 
+                                 <div class="form-group col-md-12">
+                                     <textarea  class="ckeditor" name="icerik"  >
+                                <?php echo $rows['icerik'];  ?>
+                                     </textarea>
+                                </div>
 
-
-                         <div class="container">
-                             <div class="row">
-                                 <input type="submit" value="Haber Güncelle" name="update_slider" class="btn btn-success col-md-2" />
-
+               
+                          
+                                <div class="col-md-12">
+                                 <input type="submit" value="Haber Güncelle" name="update_slider" class="btn btn-success col-md-2" /> <br><br>
+    
+                                <input type="submit" value="Sil" name="delete_slider" class="btn btn-danger col-md-2" />
+                                
                              </div>
                          </div>
-                         <br>
-
-                         <input type="submit" value="Sil" name="delete_slider" class="btn btn-danger col-md-2" />
-
+                         
+                          
 
                          <!--   <button  style="margin-top: 20px;" name="dosya_sil" value="Dosya Sil2" onclick="return confirm('Dosya Yolunu Silmek İstediğiden Eminmisiniz?')" class="btn btn-danger col-md-12">SİL</button>
  -->

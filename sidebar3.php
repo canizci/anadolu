@@ -17,10 +17,11 @@ $rows20 = $result20->fetch_assoc();
         <ul class="nav" id="main-menu">
             <li>
                 <div class="">
-                    <img src="assets/img/logo.png" style="width: 250px; height: 60px;  margin-left: 5px;" class="img-thumbnail" />
 
                     <div class="inner-text" style="color: white;  margin-left:50px;">
-                        <?php echo Hoşgeldin . " " . $rows20['ad'] ?> <?php echo  " " . $rows20['soyad'] ?>
+                       <img src="assets/img/memlogo.png" style="width: 150px; height: 150px;  margin-left: 5px;" class="rounded mx-auto d-block" />
+   
+                    <?php echo Hoşgeldin . " " . $rows20['ad'] ?> <?php echo  " " . $rows20['soyad'] ?>
                         <br />
                         <?php if ($rows20['admin_yetki'] == "1") {
                             echo "(Kullanıcı)";
