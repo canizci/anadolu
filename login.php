@@ -70,10 +70,10 @@ include 'kontrol.php';
                             <input type="text" name="admin_sifre" class="form-control" placeholder="Cep Telefonu Başında Sıfır Olmadan" maxlength="10" />
                         </div>
 
-                        <div class="form-group input-group">
+                        <!-- <div class="form-group input-group">
 
                             <div class="g-recaptcha col-md-12" data-sitekey="6LeUfWgUAAAAAIcHmotf157puG3X_SjdiUsqnhlF"></div>
-                        </div>
+                        </div> -->
 
 
                         <div class="form-group input-group col-md-12">
@@ -134,19 +134,19 @@ if (isset($_POST['giris'])) {
     if ($admin_kadi && $admin_sifre) {
 
 
-        if (isset($_POST['g-recaptcha-response'])) {
-            $captcha = $_POST['g-recaptcha-response'];
-        }
-        if (!$captcha) {
-            //echo "<h5 >Lütfen robot olmadığınızı doğrulayın.</h5>';
-            exit;
-        }
-        $kontrol = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=SECRET KEY&response=" . $captcha . "&remoteip=" . $_SERVER['REMOTE_ADDR']);
-        if ($kontrol . success == false) {
-            //echo '<h2>Spam Gönderi!</h2>';
-        } else {
-            //echo '<h2>Bütün koşullar sağlandı. Form sorunsuz çalıştı.</h2>';
-        }
+        // if (isset($_POST['g-recaptcha-response'])) {
+        //     $captcha = $_POST['g-recaptcha-response'];
+        // }
+        // if (!$captcha) {
+        //     //echo "<h5 >Lütfen robot olmadığınızı doğrulayın.</h5>';
+        //     exit;
+        // }
+        // $kontrol = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=SECRET KEY&response=" . $captcha . "&remoteip=" . $_SERVER['REMOTE_ADDR']);
+        // if ($kontrol . success == false) {
+        //     //echo '<h2>Spam Gönderi!</h2>';
+        // } else {
+        //     //echo '<h2>Bütün koşullar sağlandı. Form sorunsuz çalıştı.</h2>';
+        // }
 
 
 
