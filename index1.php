@@ -28,10 +28,12 @@ if ($_SESSION['admin_yetki'] == 3) {
     <div id="page-inner">
         <div class="row">
             <div class="col-md-12">
-
+          
                 <div>
                     <div class="col-md-12" style="font-size: 16px;">
                         <div class="panel panel-default">
+
+                              <h2>3.ULUSAL FOTOĞRAF YARIŞMASI</h2>
                             <div class="panel-heading">
                                 <b>Dikkat Edilmesi Gereken Hususlar</b>
                             </div>

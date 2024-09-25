@@ -43,7 +43,7 @@ $rows20 = $result20->fetch_assoc();
 
 
             <li>
-                <a class="active-menu" href="index.php"><i class="fa fa-home "></i>Anasayfa</a>
+                <a class="active-menu" href="index1.php"><i class="fa fa-home "></i>Anasayfa</a>
 
             </li>
 

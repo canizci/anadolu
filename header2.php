@@ -58,8 +58,10 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="">Araştırma İznİ Yönetim Paneli</a>
+               <h4><a class="navbar-brand" href="">3. ULUSAL FOTOĞRAF YARIŞMASI</a></h4> 
             </div>
+            <br>
+            <br>
 
             <div style="margin-right: 10px;">
 
