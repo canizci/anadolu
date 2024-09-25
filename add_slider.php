@@ -16,7 +16,7 @@
              <div class="col-md-12">
 
                  <h1 class="page-head-line">HABER BAŞLIĞI ve Manşet RESİM EKLE </h1>
-                 <H3>Haber Listele Ekranından Haber İçeriğini Gireblirsiniz</H3>
+                 <H3>Haber Listele Ekranından Haber İçeriğini Gireblirsiniz(Manşet Fotoğraf BoyutlarıGenişlik 700 Yükseklik 400 olmalı)</H3>
                  <div class="row col-md-12">
                      <form role="form" action="islem.php" method="POST" enctype="multipart/form-data">
 
