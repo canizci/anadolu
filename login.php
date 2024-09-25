@@ -45,15 +45,23 @@ include 'kontrol.php';
 
 <body>
     <div class="container">
-        <div class="row text-center " style="padding-top:5px;">
-            <div class="col-md-12">
-                <div align="center">
 
+        <div class="container p-4 my-5 bg-dark text-dark col-md-12">
+
+
+
+            <div class="card" style=" text-align: center;">
+                <img class="card-img-top" src="assets/img/memlogo.png" style="height: 200px;" alt="Card image cap">
+                <div class="card-body">
+                    <div class="container p-4 my-5 bg-info text-dark col-md-12">
+
+                        <h2 class="card-title">3. Ulusal Fotoğraf Yarışması Kullancı Giriş Ekranı</h2>
+                    </div>
                 </div>
-                <img src="assets/img/loginlogo.png" width="300" height="200" />
             </div>
+
         </div>
-        <div class="row ">
+        <div class="row " style="">
 
             <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
 
@@ -78,7 +86,7 @@ include 'kontrol.php';
 
                         <div class="form-group input-group col-md-12">
 
-                            <input type="submit" name="giris" class="form-control" style="" value="GİRİŞ" />
+                            <input type="submit" name="giris" class="form-control btn btn-info  " style="" value="GİRİŞ" />
 
                         </div>
 

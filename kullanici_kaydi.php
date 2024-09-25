@@ -62,15 +62,22 @@
 
 
     <div class="row">
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"> </a>
-                <div align="center">
-                    <img src="assets/img/logo.png" width="300" height="60" />
+
+        <div class="container p-4 my-5 bg-dark text-dark col-md-12">
+
+
+
+            <div class="card" style=" text-align: center;">
+                <img class="card-img-top" src="assets/img/memlogo.png" style="height: 200px;" alt="Card image cap">
+                <div class="card-body">
+                    <div class="container p-4 my-5 bg-info text-dark col-md-12">
+
+                        <h2 class="card-title">3. Ulusal Fotoğraf Yarışması Kullancı Kayıt Formu</h2>
+                    </div>
                 </div>
             </div>
-        </nav>
 
+        </div>
         <div class="container">
 
             <div class="col-md-12 col-sm-6 col-xs-12">

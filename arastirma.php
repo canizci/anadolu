@@ -20,13 +20,13 @@
                 </div>
                 <div class="panel-body">
                     <div class="alert alert-danger col-md-6">
-                        <label>Öğrencilerin Sisteme Yüklemesi Gereken Belgeler :</label>
+                        <label>Öğrencilerin Sisteme Yüklemesi Gereken Belgeler :</label><br>
                         <label>1-Yarışmaya katılım için çekilen fotoğraf</label><br>
                         <label><a href="testupload/Ek4-veli_muvaffakatnamesi.docx">2-Veli Muvafakatnamesi(Bağlantı Linki)</a></label><br>
                         <label><a href="testupload/Ek2-ogrenci_acik_riza_onayi.docx">3-Öğrenci Açık Rıza Onayı(Bağlantı Linki)</a></label><br>
                     </div>
                     <div class="alert alert-success col-md-6">
-                        <label>Öğretmenlerin Sisteme Yüklemesi Gereken Belgeler :</label>
+                        <label>Öğretmenlerin Sisteme Yüklemesi Gereken Belgeler :</label><br>
                         <label>1-Yarışmaya katılım için çekilen fotoğraf</label><br>
                         <label><a href="testupload/Ek2-ogretmen_acik_riza_onayi.docx">2-Öğretmen Açık Rıza Onayı</a></label><br>
                         <label></label><br>

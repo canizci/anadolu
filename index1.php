@@ -28,14 +28,17 @@ if ($_SESSION['admin_yetki'] == 3) {
     <div id="page-inner">
         <div class="row">
             <div class="col-md-12">
-          
+
                 <div>
                     <div class="col-md-12" style="font-size: 16px;">
                         <div class="panel panel-default">
 
-                              <h2>3.ULUSAL FOTOĞRAF YARIŞMASI</h2>
-                            <div class="panel-heading">
+                            <center>
+                                <h2>3.ULUSAL FOTOĞRAF YARIŞMASI</h2>
                                 <b>Dikkat Edilmesi Gereken Hususlar</b>
+                            </center>
+                            <div class="panel-heading">
+
                             </div>
                             <div class="panel-body">
 
@@ -60,6 +63,10 @@ if ($_SESSION['admin_yetki'] == 3) {
 
                                 </div>
                                 <div class="alert alert-success col-md-12">
+
+                                    Fotoğraf ve Belge Yükle bölümünden fotoğraf ve ilgili begeleri yükleniz.Yüklenen fotoğraf ve belgeler kısmında kontrol edebilrsiniz. <br>
+                                    <label>Anadolunun Renkerli Fotoğraf Yarışması Sisteme Giriş Kılavuzu</label><br>
+                                    <label><a href="testupload/kilavuz.docx">Kılavuz(Bağlantı Linki)</a></label><br>
                                 </div>
 
                             </div>

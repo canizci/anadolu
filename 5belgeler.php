@@ -26,7 +26,7 @@
     <label></label><br>
 </div>
 <div class="alert alert-info col-md-12">
-    <label>Yukarıda belirtilen belgeleri sırayla sisteme yükleyiniz. Modülde "Yüklenen Fotoğraf ve Belgeler" kısmından belgelerinizi kontrol edebilirsiniz. Birden fazla fotoğraf ile yarışmaya katılacaklar aşağıdaki bölümden fotoğraf yükle diyerek ikinci fotoğraflarını yükleyebilirler.</label>
+    <label>Yukarıda belirtilen belgeleri sırayla sisteme yükleyiniz. Modülde "Yüklenen Fotoğraf ve Belgeler" kısmından belgelerinizi kontrol edebilirsiniz. </label>
 </div>
 
 

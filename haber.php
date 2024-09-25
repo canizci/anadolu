@@ -18,12 +18,15 @@ $rows = $result->fetch_assoc();
 
 
 
-<div class="container p-5 my-5 bg-white text-dark" style="text-align: center;">
-    <img src="<?php echo $rows["slider_yol"]; ?>" alt="">
+<div class="container p-5 my-5 bg-white text-dark" style="">
+    <center> <img src="<?php echo $rows["slider_yol"]; ?>" alt=""></center>
+
     <hr>
     <h4><?php echo $rows["baslik"]; ?></h4>
     <p class="text-justify"><?php echo $rows["icerik"]; ?></p>
 </div>
+
+
 
 
 
