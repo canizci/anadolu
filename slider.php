@@ -38,7 +38,7 @@
                         $i++; ?>
 
                         <div class="carousel-item  ">
-                   <a href="haber.php?id=<?php echo $rows['id']; ?>"><img src=" <?php echo $rows2["slider_yol"]; ?>" class="d-block w-100" alt="..."></a> 
+                   <a href="haber.php?id=<?php echo $rows['id']; ?>"><img src=" <?php echo $rows["slider_yol"]; ?>" class="d-block w-100" alt="..."></a> 
                             <div class="carousel-caption d-none d-md-block">
                                 <!-- <a  style="color: white;" href="haber.php?id=<?php echo $rows['id']; ?>" class="card-title"><h2><?php echo $rows["baslik"]; ?></h2> </a> -->
                             </div>
