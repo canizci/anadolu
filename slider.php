@@ -20,9 +20,9 @@
 
                 ?>
                 <div class="carousel-item active ">
-                    <img src=" <?php echo $rows2["slider_yol"]; ?>" class="d-block w-100" alt="...">
+                   <a href="haber.php?id=<?php echo $rows2['id']; ?>"><img src=" <?php echo $rows2["slider_yol"]; ?>" class="d-block w-100" alt="..."></a> 
                     <div class="carousel-caption d-none d-md-block">
-                        <a style="color: black;" href="haber.php?id=<?php echo $rows2['id']; ?>" class="card-title"><?php echo $rows2["baslik"]; ?> </a>
+                        <!-- <a style="color: white;" href="haber.php?id=<?php echo $rows2['id']; ?>" class="card-title"><h2><?php echo $rows2["baslik"]; ?></h2> </a> -->
                     </div>
                 </div>
 
@@ -38,9 +38,9 @@
                         $i++; ?>
 
                         <div class="carousel-item  ">
-                            <img src=" <?php echo $rows["slider_yol"]; ?>" class="d-block w-100" alt="...">
+                   <a href="haber.php?id=<?php echo $rows['id']; ?>"><img src=" <?php echo $rows2["slider_yol"]; ?>" class="d-block w-100" alt="..."></a> 
                             <div class="carousel-caption d-none d-md-block">
-                                <a style="color: black;" href="haber.php?id=<?php echo $rows['id']; ?>" class="card-title"><?php echo $rows["baslik"]; ?> </a>
+                                <!-- <a  style="color: white;" href="haber.php?id=<?php echo $rows['id']; ?>" class="card-title"><h2><?php echo $rows["baslik"]; ?></h2> </a> -->
                             </div>
                         </div>
                 <?php }
