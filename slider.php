@@ -4,7 +4,8 @@
 <div class="row">
 
 
-    <div class="col-md-10">
+    <div class="container p-4 my-5 bg-white text-dark col-md-8">
+
 
         <!-- Slideer Başlangıç -->
         <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
@@ -20,7 +21,7 @@
 
                 ?>
                 <div class="carousel-item active ">
-                   <a href="haber.php?id=<?php echo $rows2['id']; ?>"><img src=" <?php echo $rows2["slider_yol"]; ?>" class="d-block w-100" alt="..."></a> 
+                    <a href="haber.php?id=<?php echo $rows2['id']; ?>"><img src=" <?php echo $rows2["slider_yol"]; ?>" class="d-block w-100" alt="..."></a>
                     <div class="carousel-caption d-none d-md-block">
                         <!-- <a style="color: white;" href="haber.php?id=<?php echo $rows2['id']; ?>" class="card-title"><h2><?php echo $rows2["baslik"]; ?></h2> </a> -->
                     </div>
@@ -38,7 +39,7 @@
                         $i++; ?>
 
                         <div class="carousel-item  ">
-                   <a href="haber.php?id=<?php echo $rows['id']; ?>"><img src=" <?php echo $rows["slider_yol"]; ?>" class="d-block w-100" alt="..."></a> 
+                            <a href="haber.php?id=<?php echo $rows['id']; ?>"><img src=" <?php echo $rows["slider_yol"]; ?>" class="d-block w-100" alt="..."></a>
                             <div class="carousel-caption d-none d-md-block">
                                 <!-- <a  style="color: white;" href="haber.php?id=<?php echo $rows['id']; ?>" class="card-title"><h2><?php echo $rows["baslik"]; ?></h2> </a> -->
                             </div>
@@ -69,12 +70,10 @@
 
 
 
-    <div class="col p-1  text-black" style="text-align: right;">
-        <div class="card text-bg-danger mb-3">
-            <div class="card-header">Son Haberler</div>
 
-        </div>
 
+    <div class="container p-4 my-5 bg-white text-dark col-md-3" style="margin: 15px;">
+        <b>Son Haberler</b>
         <?php
 
 
@@ -87,11 +86,8 @@
                 $i++;
         ?>
 
-                <div class="card text-bg-light mb-3">
-                    <div class="card-body">
-                        <a href="haber.php?id=<?php echo $rows['id']; ?>" class="card-title"><?php echo $rows["baslik"]; ?> </a>
-                    </div>
-                </div>
+                <p> <a href="haber.php?id=<?php echo $rows['id']; ?>" class="card-title"><?php echo $rows["baslik"]; ?> </a> </p>
+                <hr>
 
         <?php }
         } ?>
@@ -101,40 +97,42 @@
 </div>
 <!-- MANSET SLİDER BİTİŞ -->
 <div class="row">
+
     <div class="col p-12 bg-secondary text-white" style="text-align: center;">Duyurular</div>
 </div>
 
-<div class="row">
 
-    <?php
+<div class="container p-4 my-5 bg-white text-dark col-md-12">
+    <div class="row">
+        <?php
 
-    $sql = "select * from t_slider order by id DESC LIMIT 3";
-    $result = $con->query($sql);
+        $sql = "select * from t_slider order by id DESC LIMIT 3";
+        $result = $con->query($sql);
 
-    if ($result->num_rows > 0) {
-        $i = 0;
-        while ($rows = $result->fetch_assoc()) {
-            $i++;
-    ?>
-            <div class="col-md-4">.
+        if ($result->num_rows > 0) {
+            $i = 0;
+            while ($rows = $result->fetch_assoc()) {
+                $i++;
+        ?>
+                <div class="col-md-4">.
 
-                <div class="card">
-                    <img src=" <?php echo $rows['slider_yol']; ?>" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <a href="haber.php?id=<?php echo $rows['id']; ?>" class="card-title"><?php echo $rows["baslik"]; ?> </a>
-                        <p class="card-text"><?php echo substr($rows["icerik"], 0, 60); ?> <?php echo "..."; ?></p>
+                    <div class="card">
+                        <img src=" <?php echo $rows['slider_yol']; ?>" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="haber.php?id=<?php echo $rows['id']; ?>" class="card-title"><?php echo $rows["baslik"]; ?> </a>
+                            <p class="card-text"><?php echo substr($rows["icerik"], 0, 60); ?> <?php echo "..."; ?></p>
 
+                        </div>
                     </div>
+
                 </div>
 
-            </div>
-
-    <?php }
-    } ?>
+        <?php }
+        } ?>
 
 
 
-
+    </div>
 
 </div>
 
