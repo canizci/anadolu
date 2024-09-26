@@ -19,6 +19,8 @@
 ">
 
     <title>Anadolunun Renkleri Konya İl Milli Eğitim Müdürlüğü!</title>
+
+
 </head>
 
 <body>

@@ -68,11 +68,28 @@
 
 
             <div class="card" style=" text-align: center;">
-                <img class="card-img-top" src="assets/img/memlogo.png" style="height: 200px;" alt="Card image cap">
+                <img class="card-img-top" src="assets/img/memlogo.png" style="height: 100px;" alt="Card image cap">
                 <div class="card-body">
                     <div class="container p-4 my-5 bg-info text-dark col-md-12">
 
-                        <h2 class="card-title">3. Ulusal Fotoğraf Yarışması Kullancı Kayıt Formu</h2>
+                        <h3 class="card-title">3. Ulusal Fotoğraf Yarışması Kullancı Kayıt Formu</h3>
+                          <?php
+
+                    if ($_GET['durum'] == "no") {
+                        $sonuc = '<div class="alert alert-danger">AYNI KULLANICI ADI SİSTEMDE MEVCUT BAŞKA BİR KULLANICI ADI GİRİNİZ</div>';
+                        echo  $sonuc;
+                    }
+
+
+                    if ($_GET['durum'] == "ok") {
+
+                        $sonuc = '<div class="alert alert-success">KAYIT BAŞARIYLA GERÇEKLEŞTİRİLDİ</div>';
+                        echo  $sonuc;
+                    }
+
+                    ?>
+
+                
                     </div>
                 </div>
             </div>
@@ -83,7 +100,6 @@
             <div class="col-md-12 col-sm-6 col-xs-12">
                 <div class="panel panel-primary">
                     <div class="panel-heading" align="center">
-                        Anadolun Renkleri Fotoğraf Yarışması Kayıt Formu
                     </div>
                     <div class="panel-body">
                         <form role="form" action="islem.php" method="POST">
@@ -164,7 +180,7 @@
                                 <input type="submit" class="btn btn-primary" value="KAYDET" name="kkayit">
 
                             </div>
-
+                                     
 
 
 
@@ -185,28 +201,11 @@
                         -->
 
 
-
-
                     </div>
                     </form>
+                   
 
-                    <?php
-
-                    if ($_GET['durum'] == "no") {
-                        $sonuc = '<div class="alert alert-danger">AYNI KULLANICI ADI SİSTEMDE MEVCUT BAŞKA BİR KULLANICI ADI GİRİNİZ</div>';
-                        echo  $sonuc;
-                    }
-
-
-                    if ($_GET['durum'] == "ok") {
-
-                        $sonuc = '<div class="alert alert-success">KAYIT BAŞARIYLA GERÇEKLEŞTİRİLDİ</div>';
-                        echo  $sonuc;
-                    }
-
-
-
-                    ?>
+                  
 
 
                 </div>
@@ -219,7 +218,7 @@
 
 
     <div class="form-group input-group col-md-12" align="center">
-        <a href="login.php">Kullanıcı Giriş Ekranı İçin Tıklayınız</a>
+       <b> <a href="login.php">Kullanıcı Giriş Ekranı İçin Tıklayınız</a></b>
     </div>
 
 
