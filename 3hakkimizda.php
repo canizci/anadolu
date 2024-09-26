@@ -36,9 +36,9 @@
     <p class="text-justify">
     <p>Murat YİĞİT </p>
     <p>Okan TEKKALAN </p>
-    <p> Ömer Önder KILINÇARSLAN</p>
+    <p> Ömer Önder KILIÇARSLAN</p>
     <p>Mehmet Filiz</p>
-    <p>Sıdıka KAMAN</p>
+    <p>Duygu KUŞPINAR</p>
     <p>Salim ÇALLI</p>
     <p>Murat KILIÇ</p>
     <p>Telefon: 0 (0505) 475 26 80</p>

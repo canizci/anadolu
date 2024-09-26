@@ -52,7 +52,7 @@
     </p>
     <p> ✔ Şartnamede belirtilmeyen konularda ya da olası uyuşmazlıklarda yarışma seçici kurulunun kararları geçerlidir.
     </p>
-    <p> ✔ Seçici Kurul üyeleri fotoğrafları 10 puan üzerinden değerlendirir. Sistem üzerinden yapılan değerlendirme aritmetik ortalamayı otomatik olarak belirler. Değerlendirmede fotoğraf içeriği 4 puan, fotoğrafta özgünlük 2 puan, fotoğraf tekniği ve kuramsal değerlendirme 4 puan (gerçekçilik, dışavurumculuk, işlevsellik) üzerinden gerçekleştirilecektir.
+    <p> ✔ Seçici Kurul üyeleri fotoğrafları 100 puan üzerinden değerlendirir. Sistem üzerinden yapılan değerlendirme aritmetik ortalamayı otomatik olarak belirler. Değerlendirmede fotoğraf içeriği 40 puan, fotoğrafta özgünlük 20 puan, fotoğraf tekniği ve kuramsal değerlendirme 40 puan (gerçekçilik, dışavurumculuk, işlevsellik) üzerinden gerçekleştirilecektir.
     </p>
     <p> ✔ Puanlamada ortaya çıkacak eşitlik hâlinde, Seçici Kurul’un vereceği karar bağlayıcıdır.
     </p>
