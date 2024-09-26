@@ -11,16 +11,19 @@
     </h3>
     <p class="text-justify">
 
-    <P> Yarışmaya başvuru başlangıç tarihi: 4 Kasım 2024
+    <P> Yarışmaya başvuru başlangıç tarihi: 11 Kasım 2024
     </P>
-    <p> Yarışmaya son katılım tarihi: 20 Aralık 2024
+    <p> Yarışmaya son katılım tarihi: 27 Aralık 2024
     </p>
-    <p> Yarışma seçici kurulu toplantısı: 20- 30 Aralık 2024
+    <p> Yarışma seçici kurulu toplantısı: 02-06 Ocak 2025
     </p>
     <p> Sonuçların açıklanması: 10 Ocak 2025
     </p>
-    <p> E-posta bildirimi: 13 Ocak 2025
+    <p> E-posta bildirimi: 15 Ocak 2025
     </p>
+     <p> Sergi Açılışı ve Ödül Töreni: 15 Şubat 2025
+    </p>
+
 
 
 

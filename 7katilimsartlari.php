@@ -20,7 +20,7 @@
     </p>
     <p> ✔ Yarışmaya gönderdiği fotoğraf üzerinde, yapıt kendisine ait olmadığı hâlde kendisininmiş gibi göstermeye ve değerlendirme kurulunu yanıltmaya yönelik her türlü müdahale ve değişikliği yapan kişi hakkında kural ihlali işlemi uygulanır. Alıntı veya kopya olduğu tespit edilen fotoğraflar 5.12.1951 tarih ve 5846 sayılı Fikir ve Sanat Eserleri Kanunu gereğince yarışma seçici kurulu tarafından iptal edilir.
     </p>
-    <p> ✔ Fotoğraflar 20 Aralık 2024 günü saat 23.59’a kadar http:// konya.meb.gov.tr/anadolununrenkleri web sitesine yüklenecektir.
+    <p> ✔ Fotoğraflar 27 Aralık 2024 günü saat 23.59’a kadar http:// konya.meb.gov.tr/anadolununrenkleri web sitesine yüklenecektir.
     </p>
     <p> ✔ Fotoğraflarda markalar, şirketler ve şahısları rencide edecek şekilde kompozisyon yapılamaz.
     </p>
