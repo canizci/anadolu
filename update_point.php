@@ -34,6 +34,8 @@ $rows = $result->fetch_assoc();
                         </div>
 
 
+
+
                         <div class="form-group col-md-6">
                             <label>Başvuru Numarası </label>
                             <input class="form-control" type="text" name="id" disabled value="<?php echo $rows['id']; ?>">
@@ -45,35 +47,42 @@ $rows = $result->fetch_assoc();
                             <div class="form-group col-md-4">
                                 <label>k1 İçerik Puanı</label>
                                 <p></p>
-                                <select name="k1_icerik_puani" class="col-md-12">
+                                <input type="number" name="k1_icerik_puani" class="form-control" value="<?php echo $rows['k1_icerik_puani']; ?>" min="0" max="40"  placeholder=""  />
+
+                                <!-- <select name="k1_icerik_puani" class="col-md-12">
                                     <option value="<?php echo $rows['k1_icerik_puani']; ?>"><?php echo $rows['k1_icerik_puani']; ?></option>
                                     <option value="1">1 Puan</option>
                                     <option value="2">2 Puan</option>
                                     <option value="3">3 Puan</option>
                                     <option value="4">4 Puan</option>
-                                </select>
+                                </select> -->
+
                             </div>
 
                             <div class="form-group col-md-4">
                                 <label>k1 Teknik Puanı</label>
                                 <p></p>
-                                <select name="k1_teknik_puani" class="col-md-12">
+                                <input type="number" name="k1_teknik_puani" class="form-control" value="<?php echo $rows['k1_teknik_puani']; ?>" min="0" max="40"  placeholder=""  />
+
+                                <!-- <select name="k1_teknik_puani" class="col-md-12">
                                     <option value="<?php echo $rows['k1_teknik_puani']; ?>"><?php echo $rows['k1_teknik_puani']; ?></option>
                                     <option value="1">1 Puan</option>
                                     <option value="2">2 Puan</option>
                                     <option value="3">3 Puan</option>
                                     <option value="4">4 Puan</option>
-                                </select>
+                                </select> -->
                             </div>
                             <div class="form-group col-md-4">
                                 <label>k1 Özgünlük Puanı</label>
                                 <p></p>
-                                <select name="k1_ozgunluk_puani" class="col-md-12">
+                                <input type="number" name="k1_ozgunluk_puani" class="form-control" value="<?php echo $rows['k1_ozgunluk_puani']; ?>" min="0" max="20"  placeholder=""  />
+
+                                <!-- <select name="k1_ozgunluk_puani" class="col-md-12">
                                     <option value="<?php echo $rows['k1_ozgunluk_puani']; ?>"><?php echo $rows['k1_ozgunluk_puani']; ?></option>
                                     <option value="1">1 Puan</option>
                                     <option value="2">2 Puan</option>
 
-                                </select>
+                                </select> -->
                             </div>
                             <div class="alert alert-danger col-md-4">
                                 <h5>Toplam Puanı: <?php echo $rows["k1_icerik_puani"] + $rows["k1_teknik_puani"] + $rows["k1_ozgunluk_puani"]; ?></h5>
@@ -86,34 +95,40 @@ $rows = $result->fetch_assoc();
                             <div class="form-group col-md-4">
                                 <label>k2 İçerik Puanı</label>
                                 <p></p>
-                                <select name="k2_icerik_puani" class="col-md-12">
+                               <input type="number" name="k2_icerik_puani" class="form-control" value="<?php echo $rows['k2_icerik_puani']; ?>" min="0" max="40"  placeholder=""  />
+
+                                <!-- <select name="k2_icerik_puani" class="col-md-12">
                                     <option value="<?php echo $rows['k2_icerik_puani']; ?>"><?php echo $rows['k2_icerik_puani']; ?></option>
                                     <option value="1">1 Puan</option>
                                     <option value="2">2 Puan</option>
                                     <option value="3">3 Puan</option>
                                     <option value="4">4 Puan</option>
-                                </select>
+                                </select> -->
                             </div>
                             <div class="form-group col-md-4">
                                 <label>k2 Teknik Puanı</label>
                                 <p></p>
-                                <select name="k2_teknik_puani" class="col-md-12">
+                                <input type="number" name="k2_teknik_puani" class="form-control" value="<?php echo $rows['k2_teknik_puani']; ?>" min="0" max="40"  placeholder=""  />
+
+                                <!-- <select name="k2_teknik_puani" class="col-md-12">
                                     <option value="<?php echo $rows['k2_teknik_puani']; ?>"><?php echo $rows['k2_teknik_puani']; ?></option>
                                     <option value="1">1 Puan</option>
                                     <option value="2">2 Puan</option>
                                     <option value="3">3 Puan</option>
                                     <option value="4">4 Puan</option>
-                                </select>
+                                </select> -->
                             </div>
                             <div class="form-group col-md-4">
                                 <label>k2 Özgünlük Puanı</label>
                                 <p></p>
-                                <select name="k2_ozgunluk_puani" class="col-md-12">
+                                <input type="number" name="k2_ozgunluk_puani" class="form-control" value="<?php echo $rows['k2_ozgunluk_puani']; ?>" min="0" max="20"  placeholder=""  />
+
+                                <!-- <select name="k2_ozgunluk_puani" class="col-md-12">
                                     <option value="<?php echo $rows['k2_ozgunluk_puani']; ?>"><?php echo $rows['k2_ozgunluk_puani']; ?></option>
                                     <option value="1">1 Puan</option>
                                     <option value="2">2 Puan</option>
 
-                                </select>
+                                </select> -->
                             </div>
                         <?php
                         }
@@ -123,34 +138,41 @@ $rows = $result->fetch_assoc();
                             <div class="form-group col-md-4">
                                 <label>k3 İçerik Puanı</label>
                                 <p></p>
-                                <select name="k3_icerik_puani" class="col-md-12">
+                                <input type="number" name="k3_icerik_puani" class="form-control" value="<?php echo $rows['k3_icerik_puani']; ?>" min="0" max="40"  placeholder=""  />
+
+                                <!-- <select name="k3_icerik_puani" class="col-md-12">
                                     <option value="<?php echo $rows['k3_icerik_puani']; ?>"><?php echo $rows['k3_icerik_puani']; ?></option>
                                     <option value="1">1 Puan</option>
                                     <option value="2">2 Puan</option>
                                     <option value="3">3 Puan</option>
                                     <option value="4">4 Puan</option>
-                                </select>
+                                </select> -->
+                        </div>
                             </div>
                             <div class="form-group col-md-4">
                                 <label>k3 Teknik Puanı</label>
                                 <p></p>
-                                <select name="k3_teknik_puani" class="col-md-12">
+                                <input type="number" name="k3_teknik_puani" class="form-control" value="<?php echo $rows['k3_teknik_puani']; ?>" min="0" max="40"  placeholder=""  />
+
+                                <!-- <select name="k3_teknik_puani" class="col-md-12">
                                     <option value="<?php echo $rows['k3_teknik_puani']; ?>"><?php echo $rows['k3_teknik_puani']; ?></option>
                                     <option value="1">1 Puan</option>
                                     <option value="2">2 Puan</option>
                                     <option value="3">3 Puan</option>
                                     <option value="4">4 Puan</option>
-                                </select>
+                                </select> -->
                             </div>
                             <div class="form-group col-md-4">
                                 <label>k3 Özgünlük Puanı</label>
                                 <p></p>
-                                <select name="k3_ozgunluk_puani" class="col-md-12">
+                                <input type="number" name="k3_ozgunluk_puani" class="form-control" value="<?php echo $rows['k3_ozgunluk_puani']; ?>" min="0" max="20"  placeholder=""  />
+
+                                <!-- <select name="k3_ozgunluk_puani" class="col-md-12">
                                     <option value="<?php echo $rows['k3_ozgunluk_puani']; ?>"><?php echo $rows['k3_ozgunluk_puani']; ?></option>
                                     <option value="1">1 Puan</option>
                                     <option value="2">2 Puan</option>
 
-                                </select>
+                                </select> -->
                             </div>
                         <?php
                         }
@@ -160,34 +182,40 @@ $rows = $result->fetch_assoc();
                             <div class="form-group col-md-4">
                                 <label>k4 İçerik Puanı</label>
                                 <p></p>
-                                <select name="k4_icerik_puani" class="col-md-12">
+                                <input type="number" name="k4_icerik_puani" class="form-control" value="<?php echo $rows['k4_icerik_puani']; ?>" min="0" max="40"  placeholder=""  />
+
+                                <!-- <select name="k4_icerik_puani" class="col-md-12">
                                     <option value="<?php echo $rows['k4_icerik_puani']; ?>"><?php echo $rows['k4_icerik_puani']; ?></option>
                                     <option value="1">1 Puan</option>
                                     <option value="2">2 Puan</option>
                                     <option value="3">3 Puan</option>
                                     <option value="4">4 Puan</option>
-                                </select>
+                                </select> -->
                             </div>
                             <div class="form-group col-md-4">
                                 <label>k4 Teknik Puanı</label>
                                 <p></p>
-                                <select name="k4_teknik_puani" class="col-md-12">
+                                <input type="number" name="k4_teknik_puani" class="form-control" value="<?php echo $rows['k4_teknik_puani']; ?>" min="0" max="40"  placeholder=""  />
+
+                                <!-- <select name="k4_teknik_puani" class="col-md-12">
                                     <option value="<?php echo $rows['k4_teknik_puani']; ?>"><?php echo $rows['k4_teknik_puani']; ?></option>
                                     <option value="1">1 Puan</option>
                                     <option value="2">2 Puan</option>
                                     <option value="3">3 Puan</option>
                                     <option value="4">4 Puan</option>
-                                </select>
+                                </select> -->
                             </div>
                             <div class="form-group col-md-4">
                                 <label>k4 Özgünlük Puanı</label>
                                 <p></p>
-                                <select name="k4_ozgunluk_puani" class="col-md-12">
+                                <input type="number" name="k4_ozgunluk_puani" class="form-control" value="<?php echo $rows['k4_ozgunluk_puani']; ?>" min="0" max="20"  placeholder=""  />
+
+                                <!-- <select name="k4_ozgunluk_puani" class="col-md-12">
                                     <option value="<?php echo $rows['k4_ozgunluk_puani']; ?>"><?php echo $rows['k4_ozgunluk_puani']; ?></option>
                                     <option value="1">1 Puan</option>
                                     <option value="2">2 Puan</option>
 
-                                </select>
+                                </select> -->
                             </div>
                         <?php
                         }
@@ -198,28 +226,35 @@ $rows = $result->fetch_assoc();
                             <div class="form-group col-md-4">
                                 <label>k5 İçerik Puanı</label>
                                 <p></p>
-                                <select name="k5_icerik_puani" class="col-md-12">
+
+                                <input type="number" name="k5_icerik_puani" class="form-control" value="<?php echo $rows['k5_icerik_puani']; ?>" min="0" max="40"  placeholder=""  />
+
+                                <!-- <select name="k5_icerik_puani" class="col-md-12">
                                     <option value="<?php echo $rows['k5_icerik_puani']; ?>"><?php echo $rows['k5_icerik_puani']; ?></option>
                                     <option value="1">1 Puan</option>
                                     <option value="2">2 Puan</option>
                                     <option value="3">3 Puan</option>
                                     <option value="4">4 Puan</option>
-                                </select>
+                                </select> -->
                             </div>
                             <div class="form-group col-md-4">
                                 <label>k5 Teknik Puanı</label>
                                 <p></p>
-                                <select name="k5_teknik_puani" class="col-md-12">
+                                <input type="number" name="k5_teknik_puani" class="form-control" value="<?php echo $rows['k5_teknik_puani']; ?>" min="0" max="40"  placeholder=""  />
+
+                                <!-- <select name="k5_teknik_puani" class="col-md-12">
                                     <option value="<?php echo $rows['k5_teknik_puani']; ?>"><?php echo $rows['k5_teknik_puani']; ?></option>
                                     <option value="1">1 Puan</option>
                                     <option value="2">2 Puan</option>
                                     <option value="3">3 Puan</option>
                                     <option value="4">4 Puan</option>
-                                </select>
+                                </select> -->
                             </div>
                             <div class="form-group col-md-4">
                                 <label>k5 Özgünlük Puanı</label>
                                 <p></p>
+                                <input type="number" name="k5_ozgunluk_puani" class="form-control" value="<?php echo $rows['k5_ozgunluk_puani']; ?>" min="0" max="20"  placeholder=""  />
+
                                 <select name="k5_ozgunluk_puani" class="col-md-12">
                                     <option value="<?php echo $rows['k5_ozgunluk_puani']; ?>"><?php echo $rows['k5_ozgunluk_puani']; ?></option>
                                     <option value="1">1 Puan</option>
