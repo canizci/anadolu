@@ -35,7 +35,7 @@
     </p>
 </div>
 
-<div class="container p-5 my-5 bg-white text-danger">
+<div class="container p-5 my-5 bg-white text-dark">
     <h4>Değerlendirme</h4>
     <p class="text-justify">
     <p> ✔ Yarışmaya katılacak fotoğraflar jpeg formatında, 150-300 dpi, 7-12 sıkıştırma kalitesinde, kısa kenar en az 1920 piksel, uzun kenar en fazla 3200 piksel kaydedilmelidir. Yüklenecek her fotoğraf dosyası 2 Mb (siyah beyaz ise 1 Mb)’den küçük, 8 Mb’den büyük olmamalıdır.

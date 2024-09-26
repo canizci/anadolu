@@ -8,11 +8,11 @@
 <?php
 $id = $_POST['id'];
 $sql = "select *  from t_resim where id='$id'";
-$sql2 = "select * from t_login ";
+// $sql2 = "select * from t_login ";
 $result = $con->query($sql);
-$result2 = $con->query($sql2);
+// $result2 = $con->query($sql2);
 $rows = $result->fetch_assoc();
-$rows2 = $result2->fetch_assoc();
+// $rows2 = $result2->fetch_assoc();
 ?>
 <!--BLANK PAGE KODLARININ OLDUĞU BÖLÜM -->
 <div id="page-wrapper">
