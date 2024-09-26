@@ -139,7 +139,6 @@ $rows = $result->fetch_assoc();
                                 <label>k3 İçerik Puanı</label>
                                 <p></p>
                                 <input type="number" name="k3_icerik_puani" class="form-control" value="<?php echo $rows['k3_icerik_puani']; ?>" min="0" max="40"  placeholder=""  />
-
                                 <!-- <select name="k3_icerik_puani" class="col-md-12">
                                     <option value="<?php echo $rows['k3_icerik_puani']; ?>"><?php echo $rows['k3_icerik_puani']; ?></option>
                                     <option value="1">1 Puan</option>
@@ -147,7 +146,6 @@ $rows = $result->fetch_assoc();
                                     <option value="3">3 Puan</option>
                                     <option value="4">4 Puan</option>
                                 </select> -->
-                        </div>
                             </div>
                             <div class="form-group col-md-4">
                                 <label>k3 Teknik Puanı</label>
