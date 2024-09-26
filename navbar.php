@@ -81,8 +81,8 @@
                         Başvuru Yap
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="kullanici_kaydi.php">Kayıt Ekranı</a>
-                        <a class="dropdown-item" href="login.php">Giriş Ekranı</a>
+                        <a target="_blank" class="dropdown-item" href="kullanici_kaydi.php">Kayıt Ekranı</a>
+                        <a target="_blank" class="dropdown-item" href="login.php">Giriş Ekranı</a>
                         <div class="dropdown-divider"></div>
 
                     </div>
