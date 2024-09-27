@@ -16,7 +16,7 @@
     </p>
     <p> ✔ Yarışmaya her öğrenci en fazla 5 (beş) adet sayısal renkli veya siyah beyaz fotoğrafla katılabilir.
     </p>
-    <p> ✔ Katılımcı yarışmaya gönderdiği eser/eserlerin kendisine ait olduğunu ve tüm izinlerini aldığını kabul, beyan ve taahhüt eder. Eseri ödül alan veya sergilenmeye değer bulunan katılımcılardan bu beyan ve kabulleri dışında hareket ettiği anlaşılanlardan bu yarışma ile elde ettikleri ödül, unvan ve her türlü kazanımları geri alınır.
+    <p> ✔Katılımcı, yarışmaya gönderdiği eser/eserlerin kendisine ait olduğunu ve tüm izinlerini aldığını kabul, beyan ve taahhüt etmektedir. Eseri ödül alan veya sergilenmeye değer bulunan katılımcıların, bu beyan ve kabullerinin aksi tespit edilirse, yarışma ile elde ettikleri ödül, unvan ve her türlü kazanımları geri alınacaktır.
     </p>
     <p> ✔ Yarışmaya gönderdiği fotoğraf üzerinde, yapıt kendisine ait olmadığı hâlde kendisininmiş gibi göstermeye ve değerlendirme kurulunu yanıltmaya yönelik her türlü müdahale ve değişikliği yapan kişi hakkında kural ihlali işlemi uygulanır. Alıntı veya kopya olduğu tespit edilen fotoğraflar 5.12.1951 tarih ve 5846 sayılı Fikir ve Sanat Eserleri Kanunu gereğince yarışma seçici kurulu tarafından iptal edilir.
     </p>

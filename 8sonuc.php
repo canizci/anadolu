@@ -9,7 +9,7 @@
 <div class="container p-5 my-5 bg-white text-black">
     <h4>Sonuçların Açıklanması</h4>
     <p class="text-justify">
-    <p> ✔ Yarışma sonuçları Konya İl Millî Eğitim Müdürlüğü web sitesinde ilan edilecek; ayrıca tüm ödül ve sergileme kazanan katılımcılara Yarışma Organizasyon Komitesi tarafından telefon ve/veya e-posta yoluyla sonuçlar bildirilecektir.
+    <p> ✔ Yarışma sonuçları Konya İl Millî Eğitim Müdürlüğü web sitesinde ilan edilecektir.
     </p>
     <p> ✔ Katılımda yüklenecek fotoğrafların boyutlandırma ve isimlendirme işlemleri önceden yapılarak dosyalar hazırda tutulmalı ve tek bir oturumda yüklenmelidir.
     </p>
